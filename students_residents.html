@@ -4,184 +4,153 @@
 		<title>American Society of Nephrology
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	.collapsible {
-    	background-color: #777;
-    	color: white;
-    	cursor: pointer;
-    	padding: 18px;
-    	width: 100%;
-    	border: none;
-    	text-align: left;
-    	outline: none;
-    	font-size: 15px;
-	}
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/float-grid.css">
+		<style type="text/css">
+			@media only screen and (min-width: 640px) {
+				#career_map {
+	    			display: block;
+				    position: relative;
+				    margin: auto;
+				    padding-bottom: 2vh;
+				    width: 20vw;
+				    transition: transform .2s;
+				}
 
-	.collapsible_half {
-		background-color: #777;
-    	color: white;
-    	cursor: pointer;
-    	padding: 18px;
-    	width: 50%;
-    	border: none;
-    	text-align: left;
-    	outline: none;
-    	font-size: 15px;
-    	position: relative;
-	}
-
-	.collapsible_half_right {
-		background-color: #777;
-    	color: white;
-    	cursor: pointer;
-    	padding: 18px;
-    	width: 50%;
-    	border: none;
-    	text-align: left;
-    	outline: none;
-    	font-size: 15px;
-    	position: relative;
-    	float: right;
-	}
-
-	.active, .collapsible:hover {
-    	background-color: #555;
-	}
-
-	.active, .collapsible_half:hover {
-    	background-color: #555;
-	}
-
-	.active, .collapsible_half_right:hover {
-    	background-color: #555;
-	}
-
-	.content {
-    	padding: 0 18px;
-    	display: none;
-    	overflow: hidden;
-    	background-color: #f1f1f1;
-	}	
-
-	.content_half {
-    	padding: 0 18px;
-    	display: none;
-    	width: 47.5%;
-    	overflow: hidden;
-    	background-color: #f1f1f1;
-	}	
-
-	.content_half_right {
-    	padding: 0 18px;
-    	display: none;
-    	width: 47.5%;
-    	overflow: hidden;
-    	background-color: #f1f1f1;
-	}
-
-	</style>
+	  			#career_map:hover {
+	    			transform: scale(1.5);
+	  			}
+  			}
+		</style>
+			
 	</head>
 	<body>
-		<h1>Navigating Nephrology Training and Careers</h1>
-
-		<button class="collapsible">It all Starts Here: Undergraduate School</button>
-		<div class="content">
-		<h2>Undergraduate School</h2>
-		<h3>KUH Undergraduate Research Program</h3>
-		<h3>Latino Medical Student Association</h3>
-		<h3>Student National Medical Association</h3>
+		<div class="row">
+			<h1>Navigating Nephrology Training and Careers</h1>
 		</div>
-
-		<h2>Becoming an MD</h2>
-		<button class="collapsible">Medical School</button>
-		<div class="content">
-			<h2>ASN Programs for Medical Students</h2>
-			<h3>STARS</h3>
-			<h3>TREKS</h3>
-			<h3>Early Program Travel Support</h3>
+		<img src="NephrologyCareersMap.jpg" id="career_map" alt="career guidance map"/>
+		<div class="row">
+			<button class="collapsible col-12">It all Starts Here: Undergraduate School</button>
+			<div class="content col-12">
+			<h2>Undergraduate School</h2>
+			<h3>KUH Undergraduate Research Program</h3>
+			<h3>Latino Medical Student Association</h3>
+			<h3>Student National Medical Association</h3>
+			</div>
 		</div>
-		<button class="collapsible_half">Internal Medicine Residency or Pediatric Medicine Residency</button>
-		<div class="content_half">
-			<h2>ASN Programs for Residents</h2>
-			<h3>STARS</h3>
-			<h3>Early Program Travel Support</h3>
+		<div class="row">
+			<h2>Becoming an MD</h2>
+			<button class="collapsible col-12">Medical School</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Medical Students</h2>
+				<h3>STARS</h3>
+				<h3>TREKS</h3>
+				<h3>Early Program Travel Support</h3>
+			</div>
 		</div>
-		<button class="collapsible_half">Nephrology Fellowship or Pediatric Nephrology Fellowship</button>
-		<div class="content_half">
-			<h2>ASN Programs for Fellows</h2>
-			<h3>Lipps</h3>
-			<h3>Campbell Fellows</h3>
+		<div class="row">
+			<button class="collapsible col-12">Internal Medicine Residency or Pediatric Medicine Residency</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Residents</h2>
+				<h3>STARS</h3>
+				<h3>Early Program Travel Support</h3>
+			</div>
 		</div>
-		<button class="collapsible_half">MD Careers</button>
-		<div class="content_half">
-		<h2>MD Careers</h2>
-		<ul>
-			<li>Practicing Nephrologist</li>
-			<li>Pediatric Nephrologist</li>
-			<li>Clinical Educator</li>
-		</ul>
+		<div class="row">
+			<button class="collapsible col-12">Nephrology Fellowship or Pediatric Nephrology Fellowship</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Fellows</h2>
+				<h3>Lipps</h3>
+				<h3>Campbell Fellows</h3>
+			</div>
 		</div>
-
-		<h2>MD/PhD</h2>
-		<button class="collapsible_half_right">Basic Research</button>
-		<div class="content_half_right">
-			<h2>Research Programs</h2>
+		<div class="row">
+			<button class="collapsible col-12">MD Careers</button>
+			<div class="content col-12">
+				<h2>MD Careers</h2>
+			<ul>
+				<li>Practicing Nephrologist</li>
+				<li>Pediatric Nephrologist</li>
+				<li>Clinical Educator</li>
+			</ul>
+			</div>
 		</div>
-		<button class="collapsible_half_right">Residency</button>
-		<div class="content_half_right">
-			<h2>ASN Programs for Residents</h2>
-			<h3>STARS</h3>
-			<h3>Early Program Travel Support</h3>
+		<div class="row">
+			<h2>Becoming an MD/PhD</h2>
+			<button class="collapsible col-12">Basic Research</button>
+			<div class="content col-12">
+				<h2>Research Programs</h2>
+			</div>
 		</div>
-		<button class="collapsible_half_right">Nephrology Fellowship</button>
-		<div class="content_half_right">
-			<h2>ASN Programs for Fellows</h2>
-			<h3>Lipps</h3>
-			<h3>Campbell Fellows</h3>
+		<div class="row">
+			<button class="collapsible col-12">Residency</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Residents</h2>
+				<h3>STARS</h3>
+				<h3>Early Program Travel Support</h3>
+			</div>
 		</div>
-		<button class="collapsible_half_right">MD/PhD Careers</button>
-		<div class="content_half_right">
-		<h2>MD/PhD Careers</h2>
-		<ul>
-			<li>Physician Scientist</li>
-		</ul>
+		<div class="row">
+			<button class="collapsible col-12">Nephrology Fellowship</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Fellows</h2>
+				<h3>Lipps</h3>
+				<h3>Campbell Fellows</h3>
+			</div>
 		</div>
-
-		<h2>Optional Fellowship</h2>
-		<button class="collapsible">Optional Fellowship:Transplant, Interventional, Research</button>
-		<div class="content">
-			<h2>ASN Programs for Fellows</h2>
-			<h3>Lipps</h3>
-			<h3>Campbell Fellows</h3>
+		<div class="row">
+			<button class="collapsible col-12">MD/PhD Careers</button>
+			<div class="content col-12">
+				<h2>MD/PhD Careers</h2>
+				<ul>
+					<li>Physician Scientist</li>
+				</ul>
+			</div>
 		</div>
-		<button class="collapsible">Additional Careers</button>
-		<div class="content">
-		<h2>Additional Careers</h2>
-		<ul>
-			<li>Transplant Nephrologist</li>
-			<li>Interventional Nephrologist</li>
-		</ul>
+		<div class="row">
+			<h2>Optional Fellowship</h2>
+			<button class="collapsible col-12">Optional Fellowship:Transplant, Interventional, Research</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Fellows</h2>
+				<h3>Lipps</h3>
+				<h3>Campbell Fellows</h3>
+			</div>
 		</div>
-
-		<h2>PhD</h2>
-		<button class="collapsible">PhD Program</button>
-		<div class="content">
-			<h2>ASN Programs for Graduate Students</h2>
-			<h3>TREKS</h3>
-			<h3>Early Program Travel Support</h3>
-			<h3>Predoctoral Fellows Award Program</h3>
+		<div class="row">
+			<button class="collapsible col-12">Additional Careers</button>
+			<div class="content col-12">
+				<h2>Additional Careers</h2>
+				<ul>
+					<li>Transplant Nephrologist</li>
+					<li>Interventional Nephrologist</li>
+				</ul>
+			</div>
 		</div>
-		<button class="collapsible">Postdoctoral Fellowship</button>
-		<div class="content">
-			<h2>Research Programs</h2>
+		<div class="row">
+			<h2>PhD</h2>
+			<button class="collapsible col-12">PhD Program</button>
+			<div class="content col-12">
+				<h2>ASN Programs for Graduate Students</h2>
+				<h3>TREKS</h3>
+				<h3>Early Program Travel Support</h3>
+				<h3>Predoctoral Fellows Award Program</h3>
+			</div>
 		</div>
-		<button class="collapsible">PhD Careers</button>
-		<div class="content">
-		<h2>PhD Careers</h2>
-		<ul>
-			<li>Basic Scientist</li>
-			<li>Clinical Scientst</li>
-		</ul>
+		<div class="row">
+			<button class="collapsible col-12">Postdoctoral Fellowship</button>
+			<div class="content col-12">
+				<h2>Research Programs</h2>
+			</div>
+		</div>
+		<div class="row">
+			<button class="collapsible col-12">PhD Careers</button>
+			<div class="content col-12">
+			<h2>PhD Careers</h2>
+			<ul>
+				<li>Basic Scientist</li>
+				<li>Clinical Scientst</li>
+			</ul>
+			</div>
 		</div>
 
 	<script>

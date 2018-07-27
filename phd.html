@@ -4,91 +4,90 @@
 		<title>American Society of Nephrology
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	.collapsible {
-    	background-color: #777;
-    	color: white;
-    	cursor: pointer;
-    	padding: 18px;
-    	width: 100%;
-    	border: none;
-    	text-align: left;
-    	outline: none;
-    	font-size: 15px;
-	}
+		<link rel="stylesheet" type="text/css" href="styles/float-grid.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<style type="text/css">
+			@media only screen and (min-width: 640px) {
+				#timeline {
+	    			display: block;
+				    position: relative;
+				    margin: auto;
+				    padding-bottom: 2vh;
+				    width: 20vw;
+				    transition: transform .2s;
+				}
 
-	.active, .collapsible:hover {
-    	background-color: #555;
-	}
-
-	.content {
-    	padding: 0 18px;
-    	display: none;
-    	overflow: hidden;
-    	background-color: #f1f1f1;
-	}		
-	</style>
+	  			#timeline:hover {
+	    			transform: scale(2);
+	  			}
+  			}
+		</style>
 	</head>
 	<body>
-		<h1>Resources for PhD Students Interested in Nephrology Research</h1>
-		<h3>Click Each Topic for More Information</h3>
-		<button class="collapsible">Career and Funding Information</button>
-		<div class="content">
-			<h2>Career Information and Funding Opportunities</h2>
-			<h3>PhD Careers</h3>
-			<ul>
-			<li>Basic Scientist</li>
-			<li>Clinical Scientst</li>
-			</ul>
-			<h3>Research Career Timeline and Funding</h3>
-			<img src="\Research_Career_Timeline.png">
-			<p>You can learn more about National Instites of Health (NIH) funding on the ASN website <a href="https://www.asn-online.org/grants/nih.aspx">here</a></p>
-			<h4>NIH Training Opportunities for Pre-doctoral Students and Post-doctoral Fellows</h4>
-			<ul>
-				<li><a href="https://researchtraining.nih.gov/programs/fellowships/F30" target="_blank">Individual (F30)</a>: Designed to support individuals in dual degree, usually MD/PhD, programs during their PhD research experienc.</li>
-				<li><a href="https://researchtraining.nih.gov/programs/fellowships/F31" target="_blank">Individual(F31)</a>: Designed to provide support for pre-doctoral students from under-represented minority groups performing research relevant to NIDDK's mission.</li>
-				<li><a href="https://researchtraining.nih.gov/programs/fellowships/f32" target="_blank">Individual (F32)</a>: These awards provide support for fellows who have received their M.D., Ph.D., or other doctoral-level degree. Fellows need to identify a sponsor and plan a research project before applying for 1 to 3 years of funding.</li>
-				<li><a href="https://researchtraining.nih.gov/programs/training-grants/t32" target="_blank">Institutional (T32)</a>: n place at many major universities, these grants provide pre- and postdoctoral support to fellows at those institutions. To be appointed to a training grant, contact the director of the training program at your institution. For a list of NIDDK-supported programs, <a href="https://www.niddk.nih.gov/research-funding/training-career-development/institutional-training-program-locations?ac=t32" target="_blank">click here</a>.</li>
-				<li><a href="https://researchtraining.nih.gov/programs/training-grants/T35" target="_blank">Institutional (T35)</a>: These grants are awarded to research institutions to support short-term, typically summer, research experiences for pre-doctoral or post-doctoral students. NIDDK programs support summer experience for medical and other health professional students.</li>
-			</ul>			
-			<h3>ASN Research Fellowships</h3>
-			<h4>Ben J. Lipps Research Fellowship Program</h4>
-			<p>The goal of the Ben J. Lipps Research Fellowship Program is to fund nephrology fellows to conduct original, meritorious research projects. This program will foster the training of fellows, under the direction of a sponsor, who are highly motivated to make contributions to the understanding of kidney biology and disease.</p>
-			<p>To learn more about the Ben J. Lipps Research Fellowship Program and eligibility requirements, please visit the ASN grants page <a href="https://www.asn-online.org/grants/fellowships/details.aspx?app=LIPPS" target="_blank">here.</a></p>
-			<h4>ASN Pre-Doctoral Fellowship Award Program</h4>
-			<p>The goal of the ASN Pre-Doctoral Fellowship Award Program is to fund PhD students to conduct original, meritorious research projects. This program will foster early career-stage PhD students, under the direction of a sponsor, who are highly motivated to make contributions to the understanding of kidney biology and disease.</p>
-			<p>To learn more about the Pre-Doctoral Fellowship Award Program and eligibility requirements, please visit the ASN grants page <a href="https://www.asn-online.org/grants/fellowships/details.aspx?app=PREDOC" target="_blank">here.</a></p>
-			<h3>ASN Travel Support</h3>
-			<h4>ASN Advances in Research Conference Early Program Travel Support</h4>
-			<p>Travel award recipients receive $1000 in travel support and complimentary registration to the Advances in Research Conference at ASN Kidney Week. Omics, Organoids and Organs-on-a-Chip: Innovation through Collaboration, will be held October 23-October 24, 2018. Current ASN trainee members (includes pre-doctoral students and post-doctoral fellows). More more information and the application, please visit the ASN grants page <a href="https://www.asn-online.org/grants/travel/details.aspx?app=ARC">here</a>.</p>
-			<h3>NIH Loan Forgiveness</h3>
-			<p>The NIH Loan Repayment Programs (LRPs) are a set of programs established by Congress and designed to recruit and retain highly qualified health professionals into biomedical or biobehavioral research careers. The LRPs counteract that financial pressure by repaying up to $35,000 annually of a researcher's qualified educational debt in return for a commitment to engage in NIH mission-relevant research. To learn more, visit the NIH website <a href="https://www.lrp.nih.gov/">here</a>.</p>
+		<div class="row">
+			<h1>Resources for PhD Students Interested in Nephrology Research</h1>
+			<h3>Click Each Topic for More Information</h3>
 		</div>
-		
-		<button class="collapsible">Training and Job Opportunities</button>
-		<div class="content">
-			<h2>Training and Job Opportunities</h2>
-			<h3>Kidney TREKS</h3>
-			<p>Kidney TREKS (Tutored Research and Education for Kidney Scholars), an initiative established by the American Society of Nephrology (ASN), is designed to foster interest in careers in nephrology and research through a week-long research course retreat and long-term mentorship program.There are two program sites: Mount Desert Island Biological Laboratory and the University of Chicago.</p>
-			<p>Graduate students are eligible to apply for the TREKS program. For futher information, please see the ASN Kidney TREKS webpage <a href="https://www.asn-online.org/education/training/students/treks/" target="_blank">here</a></p>
-			<h3>Fellows Academy Resources</h3>
-			<h3>Research Opportunities</h3>
-			<h4>International Research Scholar Opportunities</h4>
-			<p>The opportunity for global research collaboration and training offers international fellows-in-training from around the globe a chance to learn in the United States as an international research scholar. For availble positions, please see the current list on the ASN website <a href="https://www.asn-online.org/education/training/fellows/int-research-scholar.aspx" target="_blank">here.</a></p>
-			<h4>NIH International Research Fellowships</h4>
-			<p><a href="https://researchtraining.nih.gov/programs/fellowships/F05" target="_blank">Individual F05</a>:The goal of this program is to support qualified foreign scientists and clinicians with a research or clinical doctoral degree, by enhancing their basic, translational or clinical research skills in a research setting in the United States.</p>
-			<h4>ASN Career Center</h4>
-			<p>For additional open positions, please view the ASN Career Center <a href="https://careers.asn-online.org/">here.</a></p>
+		<div class="row">
+			<button class="collapsible">Career and Funding Information</button>
+			<div class="content">
+				<h2>Career Information and Funding Opportunities</h2>
+				<h3>PhD Careers</h3>
+				<ul>
+				<li>Basic Scientist</li>
+				<li>Clinical Scientst</li>
+				</ul>
+				<h3>Research Career Timeline and Funding</h3>
+				<img src="Research_Career_Timeline.png" id="timeline" alt="research career graphic representation">
+				<p>You can learn more about National Instites of Health (NIH) funding on the ASN website <a href="https://www.asn-online.org/grants/nih.aspx">here</a></p>
+				<h4>NIH Training Opportunities for Pre-doctoral Students and Post-doctoral Fellows</h4>
+				<ul>
+					<li><a href="https://researchtraining.nih.gov/programs/fellowships/F30" target="_blank">Individual (F30)</a>: Designed to support individuals in dual degree, usually MD/PhD, programs during their PhD research experienc.</li>
+					<li><a href="https://researchtraining.nih.gov/programs/fellowships/F31" target="_blank">Individual(F31)</a>: Designed to provide support for pre-doctoral students from under-represented minority groups performing research relevant to NIDDK's mission.</li>
+					<li><a href="https://researchtraining.nih.gov/programs/fellowships/f32" target="_blank">Individual (F32)</a>: These awards provide support for fellows who have received their M.D., Ph.D., or other doctoral-level degree. Fellows need to identify a sponsor and plan a research project before applying for 1 to 3 years of funding.</li>
+					<li><a href="https://researchtraining.nih.gov/programs/training-grants/t32" target="_blank">Institutional (T32)</a>: n place at many major universities, these grants provide pre- and postdoctoral support to fellows at those institutions. To be appointed to a training grant, contact the director of the training program at your institution. For a list of NIDDK-supported programs, <a href="https://www.niddk.nih.gov/research-funding/training-career-development/institutional-training-program-locations?ac=t32" target="_blank">click here</a>.</li>
+					<li><a href="https://researchtraining.nih.gov/programs/training-grants/T35" target="_blank">Institutional (T35)</a>: These grants are awarded to research institutions to support short-term, typically summer, research experiences for pre-doctoral or post-doctoral students. NIDDK programs support summer experience for medical and other health professional students.</li>
+				</ul>			
+				<h3>ASN Research Fellowships</h3>
+				<h4>Ben J. Lipps Research Fellowship Program</h4>
+				<p>The goal of the Ben J. Lipps Research Fellowship Program is to fund nephrology fellows to conduct original, meritorious research projects. This program will foster the training of fellows, under the direction of a sponsor, who are highly motivated to make contributions to the understanding of kidney biology and disease.</p>
+				<p>To learn more about the Ben J. Lipps Research Fellowship Program and eligibility requirements, please visit the ASN grants page <a href="https://www.asn-online.org/grants/fellowships/details.aspx?app=LIPPS" target="_blank">here.</a></p>
+				<h4>ASN Pre-Doctoral Fellowship Award Program</h4>
+				<p>The goal of the ASN Pre-Doctoral Fellowship Award Program is to fund PhD students to conduct original, meritorious research projects. This program will foster early career-stage PhD students, under the direction of a sponsor, who are highly motivated to make contributions to the understanding of kidney biology and disease.</p>
+				<p>To learn more about the Pre-Doctoral Fellowship Award Program and eligibility requirements, please visit the ASN grants page <a href="https://www.asn-online.org/grants/fellowships/details.aspx?app=PREDOC" target="_blank">here.</a></p>
+				<h3>ASN Travel Support</h3>
+				<h4>ASN Advances in Research Conference Early Program Travel Support</h4>
+				<p>Travel award recipients receive $1000 in travel support and complimentary registration to the Advances in Research Conference at ASN Kidney Week. Omics, Organoids and Organs-on-a-Chip: Innovation through Collaboration, will be held October 23-October 24, 2018. Current ASN trainee members (includes pre-doctoral students and post-doctoral fellows). More more information and the application, please visit the ASN grants page <a href="https://www.asn-online.org/grants/travel/details.aspx?app=ARC">here</a>.</p>
+				<h3>NIH Loan Forgiveness</h3>
+				<p>The NIH Loan Repayment Programs (LRPs) are a set of programs established by Congress and designed to recruit and retain highly qualified health professionals into biomedical or biobehavioral research careers. The LRPs counteract that financial pressure by repaying up to $35,000 annually of a researcher's qualified educational debt in return for a commitment to engage in NIH mission-relevant research. To learn more, visit the NIH website <a href="https://www.lrp.nih.gov/">here</a>.</p>
+			</div>
+		</div>	
+		<div class="row">
+			<button class="collapsible">Training and Job Opportunities</button>
+			<div class="content">
+				<h2>Training and Job Opportunities</h2>
+				<h3>Kidney TREKS</h3>
+				<p>Kidney TREKS (Tutored Research and Education for Kidney Scholars), an initiative established by the American Society of Nephrology (ASN), is designed to foster interest in careers in nephrology and research through a week-long research course retreat and long-term mentorship program.There are two program sites: Mount Desert Island Biological Laboratory and the University of Chicago.</p>
+				<p>Graduate students are eligible to apply for the TREKS program. For futher information, please see the ASN Kidney TREKS webpage <a href="https://www.asn-online.org/education/training/students/treks/" target="_blank">here</a></p>
+				<h3>Fellows Academy Resources</h3>
+				<h3>Research Opportunities</h3>
+				<h4>International Research Scholar Opportunities</h4>
+				<p>The opportunity for global research collaboration and training offers international fellows-in-training from around the globe a chance to learn in the United States as an international research scholar. For availble positions, please see the current list on the ASN website <a href="https://www.asn-online.org/education/training/fellows/int-research-scholar.aspx" target="_blank">here.</a></p>
+				<h4>NIH International Research Fellowships</h4>
+				<p><a href="https://researchtraining.nih.gov/programs/fellowships/F05" target="_blank">Individual F05</a>:The goal of this program is to support qualified foreign scientists and clinicians with a research or clinical doctoral degree, by enhancing their basic, translational or clinical research skills in a research setting in the United States.</p>
+				<h4>ASN Career Center</h4>
+				<p>For additional open positions, please view the ASN Career Center <a href="https://careers.asn-online.org/">here.</a></p>
+			</div>
 		</div>
-			
-
-		<button class="collapsible">Additional Resources</button>
-		<div class="content">
-			<h2>Additional Resources</h2>
-			<ul>
-				<li><a href="http://jasn.asnjournals.org/content/early/2015/09/03/ASN.2015040420.full.pdf+html" target="_blank">Improving the Nephrology Match: The Path Forward(JASN)</a></li>
-				
-			</ul>
+		<div class="row">
+			<button class="collapsible">Additional Resources</button>
+			<div class="content">
+				<h2>Additional Resources</h2>
+				<ul>
+					<li><a href="http://jasn.asnjournals.org/content/early/2015/09/03/ASN.2015040420.full.pdf+html" target="_blank">Improving the Nephrology Match: The Path Forward(JASN)</a></li>
+					
+				</ul>
+			</div>
 		</div>
 
 	<script>
